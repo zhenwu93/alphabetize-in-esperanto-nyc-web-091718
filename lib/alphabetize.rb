@@ -8,4 +8,3 @@ def alphabetize(arr)
           result_array << phrase
         end
       end
-    end
