@@ -25,12 +25,11 @@ def alphabetize(arr)
                 final_array.pop
                 final_array << compare_strings(previous_word, word)
                end
-
-               i += 1
-             end
-          else
-            final_array << word
-          end
+               
+             i += 1
+           end
+        else
+        final_array << word
+        end
       end
-
     end
